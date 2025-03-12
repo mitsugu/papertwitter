@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<title>Paper Twitter Card Ver.1.0</title>
+	<style>
+		body {
+			font-size:0.8em;
+		}
+		div#content {
+			display:grid;
+			grid-template-columns:50% 50%;
+			grid-template-rows: auto;
+		}
+		div.card {
+			margin-left:1em;
+			margin-right:1em;
+		}
+		div.account {
+			display:flex;
+			width:100%;
+		}
+		div.accountnamebox {
+			margin-left:0.5em;
+			width:20em;
+		}
+		div.displayname {
+			border:1px gray solid;
+			height:1.5em;
+			margin-top:0.5em;
+		}
+		div.accountname {
+			border:1px gray solid;
+			margin-top:0.2em;
+			height:1.5em;
+			width:50%;
+		}
+		div.more {
+			width:32;
+			margin-top:2.0em;
+			margin-left:auto;
+			margin-right:0;
+		}
+		div.tweet {
+			border:1px gray solid;
+			width:100%;
+			height:6em;
+		}
+		div.day {
+			border-bottom:1px gray solid;
+			width:100%;
+			height:1.8em;
+		}
+		div.day > p {
+			margin-top:0.3em;
+			margin-left:8em;
+		}
+		div.reaction {
+			border-bottom:1px gray solid;
+			margin-top:0.1em;
+			margin-bottom:0.1em;
+			display:flex;
+			width:100%;
+			height:2.2em;
+		}
+		div.retweet {
+			margin-left:2em;
+		}
+		div.fav{
+			margin-left:2em;
+		}
+		div.reaction p {
+			margin-top:0.3em;
+		}
+		div.nav {
+			margin-top:0.2em;
+			margin-bottom:0.1em;
+			display:flex;
+			width:100%;
+			height:1.8em;
+		}
+		div.nav >img {
+			width: calc(100% / 6);
+		}
+	</style>
+</head>
+<body>
+	<div id="content">
+		<div class="card">
+			<div class="account">
+				<div class="icon">
+					<img src="icon2.svg" width="56">
+				</div>
+				<div class="accountnamebox">
+					<div class="displayname">
+					</div>
+					<div class="accountname">
+					</div>
+				</div>
+				<div class="more">
+					<img src="more.svg" width="24">
+				</div>
+			</div>
+			<div class="tweet">
+			</div>
+			<div class="day">
+				<p>年　　月　　日</p>
+			</div>
+			<div class="reaction">
+				<div class="retweet">
+					<p>件のリツイート</p>
+				</div>
+				<div class="fav">
+					<p>件のいいね</p>
+				</div>
+			</div>
+			<div class="nav">
+				<img width="24" src="reply.svg">
+				<img width="24" src="retweet.svg">
+				<img width="24" src="fav.svg">
+				<img width="24" src="inpression.svg">
+				<img width="24" src="bookmark.svg">
+				<img width="24" src="share.svg">
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="account">
+				<div class="icon">
+					<img src="icon2.svg" width="56">
+				</div>
+				<div class="accountnamebox">
+					<div class="displayname">
+					</div>
+					<div class="accountname">
+					</div>
+				</div>
+				<div class="more">
+					<img src="more.svg" width="24">
+				</div>
+			</div>
+			<div class="tweet">
+			</div>
+			<div class="day">
+				<p>年　　月　　日</p>
+			</div>
+			<div class="reaction">
+				<div class="retweet">
+					<p>件のリツイート</p>
+				</div>
+				<div class="fav">
+					<p>件のいいね</p>
+				</div>
+			</div>
+			<div class="nav">
+				<img width="24" src="reply.svg">
+				<img width="24" src="retweet.svg">
+				<img width="24" src="fav.svg">
+				<img width="24" src="inpression.svg">
+				<img width="24" src="bookmark.svg">
+				<img width="24" src="share.svg">
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="account">
+				<div class="icon">
+					<img src="icon2.svg" width="56">
+				</div>
+				<div class="accountnamebox">
+					<div class="displayname">
+					</div>
+					<div class="accountname">
+					</div>
+				</div>
+				<div class="more">
+					<img src="more.svg" width="24">
+				</div>
+			</div>
+			<div class="tweet">
+			</div>
+			<div class="day">
+				<p>年　　月　　日</p>
+			</div>
+			<div class="reaction">
+				<div class="retweet">
+					<p>件のリツイート</p>
+				</div>
+				<div class="fav">
+					<p>件のいいね</p>
+				</div>
+			</div>
+			<div class="nav">
+				<img width="24" src="reply.svg">
+				<img width="24" src="retweet.svg">
+				<img width="24" src="fav.svg">
+				<img width="24" src="inpression.svg">
+				<img width="24" src="bookmark.svg">
+				<img width="24" src="share.svg">
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="account">
+				<div class="icon">
+					<img src="icon2.svg" width="56">
+				</div>
+				<div class="accountnamebox">
+					<div class="displayname">
+					</div>
+					<div class="accountname">
+					</div>
+				</div>
+				<div class="more">
+					<img src="more.svg" width="24">
+				</div>
+			</div>
+			<div class="tweet">
+			</div>
+			<div class="day">
+				<p>年　　月　　日</p>
+			</div>
+			<div class="reaction">
+				<div class="retweet">
+					<p>件のリツイート</p>
+				</div>
+				<div class="fav">
+					<p>件のいいね</p>
+				</div>
+			</div>
+			<div class="nav">
+				<img width="24" src="reply.svg">
+				<img width="24" src="retweet.svg">
+				<img width="24" src="fav.svg">
+				<img width="24" src="inpression.svg">
+				<img width="24" src="bookmark.svg">
+				<img width="24" src="share.svg">
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="account">
+				<div class="icon">
+					<img src="icon2.svg" width="56">
+				</div>
+				<div class="accountnamebox">
+					<div class="displayname">
+					</div>
+					<div class="accountname">
+					</div>
+				</div>
+				<div class="more">
+					<img src="more.svg" width="24">
+				</div>
+			</div>
+			<div class="tweet">
+			</div>
+			<div class="day">
+				<p>年　　月　　日</p>
+			</div>
+			<div class="reaction">
+				<div class="retweet">
+					<p>件のリツイート</p>
+				</div>
+				<div class="fav">
+					<p>件のいいね</p>
+				</div>
+			</div>
+			<div class="nav">
+				<img width="24" src="reply.svg">
+				<img width="24" src="retweet.svg">
+				<img width="24" src="fav.svg">
+				<img width="24" src="inpression.svg">
+				<img width="24" src="bookmark.svg">
+				<img width="24" src="share.svg">
+			</div>
+		</div>
+
+		<div class="card">
+			<div class="account">
+				<div class="icon">
+					<img src="icon2.svg" width="56">
+				</div>
+				<div class="accountnamebox">
+					<div class="displayname">
+					</div>
+					<div class="accountname">
+					</div>
+				</div>
+				<div class="more">
+					<img src="more.svg" width="24">
+				</div>
+			</div>
+			<div class="tweet">
+			</div>
+			<div class="day">
+				<p>年　　月　　日</p>
+			</div>
+			<div class="reaction">
+				<div class="retweet">
+					<p>件のリツイート</p>
+				</div>
+				<div class="fav">
+					<p>件のいいね</p>
+				</div>
+			</div>
+			<div class="nav">
+				<img width="24" src="reply.svg">
+				<img width="24" src="retweet.svg">
+				<img width="24" src="fav.svg">
+				<img width="24" src="inpression.svg">
+				<img width="24" src="bookmark.svg">
+				<img width="24" src="share.svg">
+			</div>
+		</div>
+
+	</div>
+</body>
+</html>
